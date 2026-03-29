@@ -1,0 +1,15 @@
+# Node
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Uploads temp files
+uploads/*
+!uploads/.gitkeep
+
+# Environment
+.env

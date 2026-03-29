@@ -1,0 +1,11 @@
+{
+  "name": "ai-fitness-trainer",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "dev:backend": "cd backend && uvicorn app.main:app --reload --port 8000",
+    "start": "echo Run frontend and backend in separate terminals"
+  }
+}
